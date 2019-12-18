@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F691609023AA0387006A316C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F691608F23AA0387006A316C /* AppDelegate.m */; };
+		F691609B23AA0389006A316C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F691609A23AA0389006A316C /* Assets.xcassets */; };
+		F69160A123AA0389006A316C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F69160A023AA0389006A316C /* main.m */; };
+		F69160AC23AA03EA006A316C /* PageContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = F69160A823AA03EA006A316C /* PageContentView.m */; };
+		F69160AD23AA03EA006A316C /* PageTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F69160A923AA03EA006A316C /* PageTitleView.m */; };
+		F69160B023AA04BE006A316C /* UIColor+RGB.m in Sources */ = {isa = PBXBuildFile; fileRef = F69160AF23AA04BE006A316C /* UIColor+RGB.m */; };
+		F69160B323AA05DD006A316C /* WYPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = F69160B223AA05DD006A316C /* WYPageController.m */; };
+		F69160B623AA0E8F006A316C /* WYPageBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = F69160B523AA0E8F006A316C /* WYPageBaseController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F691608B23AA0387006A316C /* WYPageController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYPageController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F691608E23AA0387006A316C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F691608F23AA0387006A316C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F691609A23AA0389006A316C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F691609F23AA0389006A316C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F69160A023AA0389006A316C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F69160A823AA03EA006A316C /* PageContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentView.m; sourceTree = "<group>"; };
+		F69160A923AA03EA006A316C /* PageTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageTitleView.m; sourceTree = "<group>"; };
+		F69160AA23AA03EA006A316C /* PageContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentView.h; sourceTree = "<group>"; };
+		F69160AB23AA03EA006A316C /* PageTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageTitleView.h; sourceTree = "<group>"; };
+		F69160AE23AA04BE006A316C /* UIColor+RGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+RGB.h"; path = "WYPageController/UIColor+RGB.h"; sourceTree = "<group>"; };
+		F69160AF23AA04BE006A316C /* UIColor+RGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+RGB.m"; path = "WYPageController/UIColor+RGB.m"; sourceTree = "<group>"; };
+		F69160B123AA05DD006A316C /* WYPageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYPageController.h; sourceTree = "<group>"; };
+		F69160B223AA05DD006A316C /* WYPageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYPageController.m; sourceTree = "<group>"; };
+		F69160B423AA0E8F006A316C /* WYPageBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYPageBaseController.h; sourceTree = "<group>"; };
+		F69160B523AA0E8F006A316C /* WYPageBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYPageBaseController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F691608823AA0387006A316C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F691608223AA0386006A316C = {
+			isa = PBXGroup;
+			children = (
+				F69160AE23AA04BE006A316C /* UIColor+RGB.h */,
+				F69160AF23AA04BE006A316C /* UIColor+RGB.m */,
+				F69160A723AA03EA006A316C /* Page */,
+				F691608D23AA0387006A316C /* WYPageController */,
+				F691608C23AA0387006A316C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F691608C23AA0387006A316C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F691608B23AA0387006A316C /* WYPageController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F691608D23AA0387006A316C /* WYPageController */ = {
+			isa = PBXGroup;
+			children = (
+				F691608E23AA0387006A316C /* AppDelegate.h */,
+				F691608F23AA0387006A316C /* AppDelegate.m */,
+				F69160B123AA05DD006A316C /* WYPageController.h */,
+				F69160B223AA05DD006A316C /* WYPageController.m */,
+				F69160B423AA0E8F006A316C /* WYPageBaseController.h */,
+				F69160B523AA0E8F006A316C /* WYPageBaseController.m */,
+				F691609A23AA0389006A316C /* Assets.xcassets */,
+				F691609F23AA0389006A316C /* Info.plist */,
+				F69160A023AA0389006A316C /* main.m */,
+			);
+			path = WYPageController;
+			sourceTree = "<group>";
+		};
+		F69160A723AA03EA006A316C /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				F69160AB23AA03EA006A316C /* PageTitleView.h */,
+				F69160A923AA03EA006A316C /* PageTitleView.m */,
+				F69160AA23AA03EA006A316C /* PageContentView.h */,
+				F69160A823AA03EA006A316C /* PageContentView.m */,
+			);
+			name = Page;
+			path = WYPageController/Page;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F691608A23AA0387006A316C /* WYPageController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69160A423AA0389006A316C /* Build configuration list for PBXNativeTarget "WYPageController" */;
+			buildPhases = (
+				F691608723AA0387006A316C /* Sources */,
+				F691608823AA0387006A316C /* Frameworks */,
+				F691608923AA0387006A316C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WYPageController;
+			productName = WYPageController;
+			productReference = F691608B23AA0387006A316C /* WYPageController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F691608323AA0386006A316C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "陈午阳";
+				TargetAttributes = {
+					F691608A23AA0387006A316C = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F691608623AA0386006A316C /* Build configuration list for PBXProject "WYPageController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F691608223AA0386006A316C;
+			productRefGroup = F691608C23AA0387006A316C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F691608A23AA0387006A316C /* WYPageController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F691608923AA0387006A316C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F691609B23AA0389006A316C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F691608723AA0387006A316C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69160B623AA0E8F006A316C /* WYPageBaseController.m in Sources */,
+				F691609023AA0387006A316C /* AppDelegate.m in Sources */,
+				F69160A123AA0389006A316C /* main.m in Sources */,
+				F69160B023AA04BE006A316C /* UIColor+RGB.m in Sources */,
+				F69160B323AA05DD006A316C /* WYPageController.m in Sources */,
+				F69160AC23AA03EA006A316C /* PageContentView.m in Sources */,
+				F69160AD23AA03EA006A316C /* PageTitleView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F69160A223AA0389006A316C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F69160A323AA0389006A316C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F69160A523AA0389006A316C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WYPageController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.planthorde.x1dsj.WYPageController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F69160A623AA0389006A316C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WYPageController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.planthorde.x1dsj.WYPageController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F691608623AA0386006A316C /* Build configuration list for PBXProject "WYPageController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69160A223AA0389006A316C /* Debug */,
+				F69160A323AA0389006A316C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69160A423AA0389006A316C /* Build configuration list for PBXNativeTarget "WYPageController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69160A523AA0389006A316C /* Debug */,
+				F69160A623AA0389006A316C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F691608323AA0386006A316C /* Project object */;
+}
