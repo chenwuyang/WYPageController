@@ -57,7 +57,7 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 - (PageTitleView *)pageTitleView
 {
     if (!_pageTitleView) {
-        NSArray *titles = @[@"全部",@"待付款",@"待发货",@"待收货",@"已完成"];
+        NSArray *titles = @[@"全部",@"待付款",@"待发货",@"已完成"];
         _pageTitleView = [[PageTitleView alloc] initWithFrame:CGRectMake(0, kTopHeight, kScreenWidth, 44)];
         _pageTitleView.showTopLine = NO;
         _pageTitleView.lineColor = UIColorFromRGB(0xFF4A2D);
@@ -82,7 +82,7 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
     if (!_pageContentView) {
         _pageContentView = [[PageContentView alloc] initWithFrame:CGRectMake(0, kTopHeight+44, kScreenWidth, kScreenHeight-44-kTopHeight-kStatusBarHeight)];
         _pageContentView.delegate = self;
-        for (int i = 0; i<5; i++) {
+        for (int i = 0; i<4; i++) {
             WYPageBaseController *pageBaseVC = [[WYPageBaseController alloc] init];
             [self.controllers addObject:pageBaseVC];
         }
