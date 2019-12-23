@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F67B187C23B0B4A700CF5496 /* UIColor+RGB.m in Sources */ = {isa = PBXBuildFile; fileRef = F67B187B23B0B4A700CF5496 /* UIColor+RGB.m */; };
 		F691609023AA0387006A316C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F691608F23AA0387006A316C /* AppDelegate.m */; };
 		F691609B23AA0389006A316C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F691609A23AA0389006A316C /* Assets.xcassets */; };
 		F69160A123AA0389006A316C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F69160A023AA0389006A316C /* main.m */; };
 		F69160AC23AA03EA006A316C /* PageContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = F69160A823AA03EA006A316C /* PageContentView.m */; };
 		F69160AD23AA03EA006A316C /* PageTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F69160A923AA03EA006A316C /* PageTitleView.m */; };
-		F69160B023AA04BE006A316C /* UIColor+RGB.m in Sources */ = {isa = PBXBuildFile; fileRef = F69160AF23AA04BE006A316C /* UIColor+RGB.m */; };
 		F69160B323AA05DD006A316C /* WYPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = F69160B223AA05DD006A316C /* WYPageController.m */; };
 		F69160B623AA0E8F006A316C /* WYPageBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = F69160B523AA0E8F006A316C /* WYPageBaseController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F67B187A23B0B4A700CF5496 /* UIColor+RGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RGB.h"; sourceTree = "<group>"; };
+		F67B187B23B0B4A700CF5496 /* UIColor+RGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RGB.m"; sourceTree = "<group>"; };
 		F691608B23AA0387006A316C /* WYPageController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYPageController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F691608E23AA0387006A316C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F691608F23AA0387006A316C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -28,8 +30,6 @@
 		F69160A923AA03EA006A316C /* PageTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageTitleView.m; sourceTree = "<group>"; };
 		F69160AA23AA03EA006A316C /* PageContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentView.h; sourceTree = "<group>"; };
 		F69160AB23AA03EA006A316C /* PageTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageTitleView.h; sourceTree = "<group>"; };
-		F69160AE23AA04BE006A316C /* UIColor+RGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RGB.h"; sourceTree = "<group>"; };
-		F69160AF23AA04BE006A316C /* UIColor+RGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RGB.m"; sourceTree = "<group>"; };
 		F69160B123AA05DD006A316C /* WYPageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYPageController.h; sourceTree = "<group>"; };
 		F69160B223AA05DD006A316C /* WYPageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYPageController.m; sourceTree = "<group>"; };
 		F69160B423AA0E8F006A316C /* WYPageBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYPageBaseController.h; sourceTree = "<group>"; };
@@ -87,8 +87,8 @@
 				F69160A923AA03EA006A316C /* PageTitleView.m */,
 				F69160AA23AA03EA006A316C /* PageContentView.h */,
 				F69160A823AA03EA006A316C /* PageContentView.m */,
-				F69160AE23AA04BE006A316C /* UIColor+RGB.h */,
-				F69160AF23AA04BE006A316C /* UIColor+RGB.m */,
+				F67B187A23B0B4A700CF5496 /* UIColor+RGB.h */,
+				F67B187B23B0B4A700CF5496 /* UIColor+RGB.m */,
 			);
 			name = Page;
 			path = WYPageController/Page;
@@ -165,7 +165,7 @@
 				F69160B623AA0E8F006A316C /* WYPageBaseController.m in Sources */,
 				F691609023AA0387006A316C /* AppDelegate.m in Sources */,
 				F69160A123AA0389006A316C /* main.m in Sources */,
-				F69160B023AA04BE006A316C /* UIColor+RGB.m in Sources */,
+				F67B187C23B0B4A700CF5496 /* UIColor+RGB.m in Sources */,
 				F69160B323AA05DD006A316C /* WYPageController.m in Sources */,
 				F69160AC23AA03EA006A316C /* PageContentView.m in Sources */,
 				F69160AD23AA03EA006A316C /* PageTitleView.m in Sources */,
