@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "WYPageController"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "这是简介"
 
   # This description is used to generate tags and improve search results.
@@ -93,8 +93,6 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = "WYPageController/Page/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
-
-  spec.public_header_files = "WYPageController/Page/UIColor+RGB.{h,m}"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
